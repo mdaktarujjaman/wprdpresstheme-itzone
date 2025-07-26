@@ -1,0 +1,106 @@
+body.login{
+  background: url('../img/LoginBG.png') ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+body.login #login{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body.login #loginform {
+    background: rgba(173, 216, 230, 0.9); /* Light Blue */
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+body.login #loginform:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+#login form p.submit {
+    display: block;
+}
+#loginform p.submit input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#loginform p.submit input:hover {
+    background-color:  #005d8f;
+}
+/* Last P */
+.login #nav,
+.login #backtoblog {
+    margin-top: 20px;
+    padding: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    color: #2c3e50; /* Deep grayish blue for trust */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Layout settings */
+.login #nav {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+
+.login #backtoblog {
+    width: 55%;
+    float: right;
+    text-align: right;
+}
+
+/* Stylish and soft link styles */
+.login #nav a,
+.login #backtoblog a {
+    color: #0077b6; /* Calm, trustworthy blue */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.login #nav a:hover,
+.login #backtoblog a:hover {
+    color: #B613BF; /* Darker hover shade for depth */
+    text-decoration: underline;
+}
+.login #backtoblog a {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.login #ligin_error, .login .message, .login .success, input#user_login, input#user_pass {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-left: #005D8F 4px solid;
+}
+
+
